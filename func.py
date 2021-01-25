@@ -25,7 +25,3 @@ def downcast_scalar_dtypes(org_df, signed_default=True):
     saved = (_start - _end) / _start * 100
     print(f"Saved {saved:.2f}%")
     return df
-
-
-def new_function():
-    pass
